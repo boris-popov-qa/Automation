@@ -42,6 +42,16 @@ public class LectureOne {
 
     }
 
+    @Test
+    public void fourthTest() {
+
+        short minValue = -32768;
+        short maxValue = 32767;
+
+        System.out.println("Min value: " + minValue + '\n' + "Max value: " + maxValue);
+
+    }
+
 
 
 }
