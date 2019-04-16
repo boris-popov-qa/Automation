@@ -31,6 +31,17 @@ public class LectureOne {
 
     }
 
+    @Test
+    public void thirdTest() {
+
+        char backlash = 0x005c;
+        char singleQuote = 0x2019;
+        char doubleQuotes = 0x0022;
+
+        System.out.print ("" + backlash + singleQuote + "Hello" + singleQuote + backlash + "to" + backlash + backlash + backlash + doubleQuotes + "World" + doubleQuotes + backlash + singleQuote);
+
+    }
+
 
 
 }
