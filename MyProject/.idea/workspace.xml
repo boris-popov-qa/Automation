@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f664e0-0074-44c5-8976-05f79b7eb320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+            <state relative-caret-position="648">
+              <caret line="87" column="149" lean-forward="true" selection-start-line="87" selection-start-column="149" selection-end-line="87" selection-end-column="149" />
             </state>
           </provider>
         </entry>
@@ -164,25 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureOne.test5">
-    <configuration name="LectureOne.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LectureOne" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LectureOne.test6">
     <configuration name="LectureOne.fourthTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -237,6 +218,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LectureOne.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureOne" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LectureOne.thirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -257,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureOne.test6" />
         <item itemvalue="TestNG.LectureOne.test5" />
         <item itemvalue="TestNG.LectureOne.fourthTest" />
         <item itemvalue="TestNG.LectureOne.thirdTest" />
         <item itemvalue="TestNG.LectureOne.secondTest" />
-        <item itemvalue="TestNG.LectureOne.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state relative-caret-position="648">
+          <caret line="87" column="149" lean-forward="true" selection-start-line="87" selection-start-column="149" selection-end-line="87" selection-end-column="149" />
         </state>
       </provider>
     </entry>

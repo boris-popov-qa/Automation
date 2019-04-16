@@ -75,6 +75,19 @@ public class LectureOne {
         System.out.println("Remainder: " + (c % b));
     }
 
+    @Test
+    public void test6() {
+
+        String firstName = "John";
+        String lastName = "Snow";
+        int age = 25;
+        String gender = "Male";
+        long personalNumber = 8306112507L;
+        long employeeNumber = 27560000;
+
+        System.out.println("First name: " + firstName + '\n' + "Last name: " + lastName + '\n' + "Age: " + age + '\n' + "Gender: " + gender + '\n' + "Personal number: " + personalNumber + '\n' + "Employee number: " + employeeNumber);
+    }
+
 
 
 }
