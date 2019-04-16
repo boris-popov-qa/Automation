@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class LectureOne {
 
     @Test
-    public void firstTest() {
+    public void test1() {
 
         char firstLetter = 0x0042;
         char secondLetter = 0x006f;
@@ -19,7 +19,7 @@ public class LectureOne {
     }
 
     @Test
-    public void secondTest() {
+    public void test2() {
 
         char firstLetter = 66;
         char secondLetter = 111;
@@ -32,7 +32,7 @@ public class LectureOne {
     }
 
     @Test
-    public void thirdTest() {
+    public void test3() {
 
         char backlash = 0x005c;
         char singleQuote = 0x2019;
@@ -43,13 +43,36 @@ public class LectureOne {
     }
 
     @Test
-    public void fourthTest() {
+    public void test4() {
 
         short minValue = -32768;
         short maxValue = 32767;
 
         System.out.println("Min value: " + minValue + '\n' + "Max value: " + maxValue);
 
+    }
+
+    @Test
+    public void test5() {
+
+        int a = 10;
+        int b = 2;
+        int c = 17;
+
+        //Adding - the sum of a + c should be 29;
+        System.out.println("Adding: " + (a + b + c));
+
+        //Subtracting - the result of c - a should be 7;
+        System.out.println("Subtracting: " + (c - a));
+
+        //Multiplication - the result of a * b should be 20;
+        System.out.println("Multiplication: " + (a * b));
+
+        //Division - the result of a / b should be 5;
+        System.out.println("Division: " + (a / b));
+
+        //Remainder - the result of c % b should be 1;
+        System.out.println("Remainder: " + (c % b));
     }
 
 

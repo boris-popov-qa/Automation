@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f664e0-0074-44c5-8976-05f79b7eb320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+            <state relative-caret-position="427">
+              <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -163,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureOne.fourthTest">
+  <component name="RunManager" selected="TestNG.LectureOne.test5">
     <configuration name="LectureOne.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -218,6 +219,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LectureOne.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureOne" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LectureOne.thirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -238,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureOne.test5" />
         <item itemvalue="TestNG.LectureOne.fourthTest" />
         <item itemvalue="TestNG.LectureOne.thirdTest" />
         <item itemvalue="TestNG.LectureOne.secondTest" />
@@ -259,21 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureOne_firstTest - 2019.04.16 at 17h 12m 59s.xml">
-      <configuration name="LectureOne.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureOne_firstTest - 2019.04.16 at 17h 13m 09s.xml">
-      <configuration name="LectureOne.firstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureOne_secondTest - 2019.04.16 at 17h 17m 42s.xml">
-      <configuration name="LectureOne.secondTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureOne_thirdTest - 2019.04.16 at 17h 40m 34s.xml">
-      <configuration name="LectureOne.thirdTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureOne_thirdTest - 2019.04.16 at 17h 42m 15s.xml">
-      <configuration name="LectureOne.thirdTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureOne_thirdTest - 2019.04.16 at 17h 47m 22s.xml">
       <configuration name="LectureOne.thirdTest" configurationId="TestNG" />
     </history-entry>
@@ -288,6 +293,21 @@
     </history-entry>
     <history-entry file="LectureOne_thirdTest - 2019.04.16 at 17h 52m 56s.xml">
       <configuration name="LectureOne.thirdTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureOne_fourthTest - 2019.04.16 at 18h 02m 26s.xml">
+      <configuration name="LectureOne.fourthTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureOne_fourthTest - 2019.04.16 at 18h 03m 38s.xml">
+      <configuration name="LectureOne.fourthTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureOne_test5 - 2019.04.16 at 18h 19m 19s.xml">
+      <configuration name="LectureOne.test5" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureOne_test5 - 2019.04.16 at 18h 19m 46s.xml">
+      <configuration name="LectureOne.test5" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureOne_test5 - 2019.04.16 at 18h 21m 27s.xml">
+      <configuration name="LectureOne.test5" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -360,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+        <state relative-caret-position="427">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>
