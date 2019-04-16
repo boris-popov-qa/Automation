@@ -18,6 +18,19 @@ public class LectureOne {
 
     }
 
+    @Test
+    public void secondTest() {
+
+        char firstLetter = 66;
+        char secondLetter = 111;
+        char thirdLetter = 114;
+        char fourthLetter = 105;
+        char fifthLetter = 115;
+
+        System.out.print("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
+
+    }
+
 
 
 }
