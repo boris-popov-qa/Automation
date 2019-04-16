@@ -3,7 +3,7 @@
 <suite name="Automation QA">
     <test name="Automation QA Test" >
         <classes>
-            <class name="placeholder" />
+            <class name="tests.LectureOne" />
         </classes>
     </test>
 

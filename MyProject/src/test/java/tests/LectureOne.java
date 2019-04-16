@@ -14,7 +14,7 @@ public class LectureOne {
         char fourthLetter = 0x0069;
         char fifthLetter = 0x0073;
 
-        System.out.print("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
+        System.out.println("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
 
     }
 
@@ -27,7 +27,7 @@ public class LectureOne {
         char fourthLetter = 105;
         char fifthLetter = 115;
 
-        System.out.print("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
+        System.out.println("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
 
     }
 
@@ -38,7 +38,7 @@ public class LectureOne {
         char singleQuote = 0x2019;
         char doubleQuotes = 0x0022;
 
-        System.out.print ("" + backlash + singleQuote + "Hello" + singleQuote + backlash + "to" + backlash + backlash + backlash + doubleQuotes + "World" + doubleQuotes + backlash + singleQuote);
+        System.out.println ("" + backlash + singleQuote + "Hello" + singleQuote + backlash + "to" + backlash + backlash + backlash + doubleQuotes + "World" + doubleQuotes + backlash + singleQuote);
 
     }
 
