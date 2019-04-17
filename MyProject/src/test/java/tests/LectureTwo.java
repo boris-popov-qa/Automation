@@ -114,7 +114,53 @@ public class LectureTwo {
             System.out.println(b + " is not a Prime number.");
     }
 
-    
+    @Test
+    public void test3(){
+        Random rn = new Random();
+        int newNumber = rn.nextInt(10);
+        String numberName;
+
+        switch (newNumber){
+            case 0:
+                numberName = "Zero";
+                break;
+            case 1:
+                numberName = "One";
+                break;
+            case 2:
+                numberName = "Two";
+                break;
+            case 3:
+                numberName = "Three";
+                break;
+            case 4:
+                numberName = "Four";
+                break;
+            case 5:
+                numberName = "Five";
+                break;
+            case 6:
+                numberName = "Six";
+                break;
+            case 7:
+                numberName = "Seven";
+                break;
+            case 8:
+                numberName = "Eight";
+                break;
+            case 9:
+                numberName = "Nine";
+                break;
+            default:
+                numberName = "Invalid number";
+                break;
+
+        }
+
+        System.out.println(newNumber + " : " + numberName);
+
+
+    }
 
 
 
