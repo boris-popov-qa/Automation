@@ -2,14 +2,24 @@ package tests;
 
 import org.testng.annotations.Test;
 
+import java.util.Random;
+
 public class LectureTwo {
 
-    int firstValue = 24;
-    int secondValue = 13;
+
 
 
     @Test
     public void test1(){
+
+        Random rn = new Random();
+
+        int firstValue = rn.nextInt(30);
+        int secondValue = rn.nextInt(30);
+
+        System.out.println("First number: " + firstValue);
+        System.out.println("Second number: " + secondValue);
+
         firstValue = firstValue % 2;
         secondValue = secondValue % 2;
 
@@ -42,4 +52,71 @@ public class LectureTwo {
         else
             System.out.println("The two numbers are NOT both odd.");
     }
-}
+
+    @Test
+    public void test2(){
+        Random rn = new Random();
+        int a = rn.nextInt(10);
+        int b = rn.nextInt(10);
+
+        //"Намерете начин да валидирате входните данни" - Не съм сигурен каква валидация се изисква точно, за тази точка от задачата.
+
+        //If the number is between 1 and 5 - multiply by 10.
+        if (a > 0 && a < 6){
+            System.out.println("The result of " + a + " * 10 is: " + (a * 10));
+        }
+
+        if (b > 0 && b < 6){
+            System.out.println("The result of " + b + " * 10 is: " + (b * 10));
+        }
+
+        //If the number is between 5 and 9 - multiply by 100.
+        if (a > 5 && a < 10){
+            System.out.println("The result of " + a + " * 100 is: " + (a * 100));
+        }
+
+        if (b > 5 && b < 10){
+            System.out.println("The result of " + b + " * 100 is: " + (b * 100));
+        }
+
+        //Validating if the number is Prime or Not. (I had to use a little help from Google for this one)
+        int remainder;
+        boolean isPrime=true;
+
+        //Validate a
+        for(int i=2;i<=a/2;i++){
+            remainder=a%i;
+
+            if(remainder==0){
+                isPrime=false;
+                break;
+            }
+
+        }
+        if(isPrime && a > 1)
+            System.out.println(a + " is a Prime number.");
+        else
+            System.out.println(a + " is not a Prime number.");
+
+        //Validate b
+        for(int i=2;i<=b/2;i++){
+            remainder=b%i;
+
+            if(remainder==0){
+                isPrime=false;
+                break;
+            }
+
+        }
+        if(isPrime && b > 1)
+            System.out.println(b + " is a Prime number.");
+        else
+            System.out.println(b + " is not a Prime number.");
+    }
+
+    
+
+
+
+    }
+
