@@ -2,6 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class LectureTwo {
@@ -228,6 +229,23 @@ public class LectureTwo {
 
                 System.out.println("\n");
             }
+
+    }
+
+    @Test
+    public void test6(){
+        int [] newArray = {7, 9, 12, -22, -15, 8};
+
+        Arrays.sort(newArray);
+
+        for (int elementIndex = 0; elementIndex < newArray.length; elementIndex++){
+
+            if (elementIndex == 4){
+                System.out.println(newArray[elementIndex]);
+                break;
+            }
+
+        }
 
     }
 }
