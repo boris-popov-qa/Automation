@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="236" column="50" lean-forward="true" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+            <state relative-caret-position="682">
+              <caret line="255" column="38" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,29 +152,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureTwo.test6">
+  <component name="RunManager" selected="TestNG.LectureTwo.test7">
     <configuration name="C:/Users/boris.popov/Automation/MyProject/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LectureTwo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LectureTwo" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -235,13 +217,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LectureTwo.test7" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureTwo" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureTwo.test7" />
         <item itemvalue="TestNG.LectureTwo.test6" />
         <item itemvalue="TestNG.LectureTwo.test5" />
         <item itemvalue="TestNG.LectureTwo.test4" />
         <item itemvalue="TestNG.C:/Users/boris.popov/Automation/MyProject/TestNG.xml" />
-        <item itemvalue="TestNG.LectureTwo.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -259,9 +259,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureTwo_test5 - 2019.04.17 at 18h 53m 32s.xml">
-      <configuration name="LectureTwo.test5" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureTwo_test5 - 2019.04.17 at 18h 53m 36s.xml">
       <configuration name="LectureTwo.test5" configurationId="TestNG" />
     </history-entry>
@@ -287,6 +284,9 @@
       <configuration name="LectureTwo.test6" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LectureTwo_test6 - 2019.04.17 at 19h 39m 15s.xml">
+      <configuration name="LectureTwo.test6" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureTwo_test6 - 2019.04.17 at 19h 40m 35s.xml">
       <configuration name="LectureTwo.test6" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -355,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="236" column="50" lean-forward="true" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+        <state relative-caret-position="682">
+          <caret line="255" column="38" selection-start-line="255" selection-start-column="38" selection-end-line="255" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
