@@ -52,6 +52,8 @@ public class LectureTwo {
         Random rn = new Random();
         int a = rn.nextInt(10);
         int b = rn.nextInt(10);
+        a +=1;
+        b +=1;
 
         //"Намерете начин да валидирате входните данни" - Не съм сигурен каква валидация се изисква точно, за тази точка от задачата.
 
@@ -196,6 +198,36 @@ public class LectureTwo {
             }
 
         }
+
+    }
+
+    @Test
+    public void test5(){
+        Random rn = new Random();
+        int numberN = rn.nextInt(10);
+        numberN +=2;
+
+
+        int [][] newArray = new int[numberN][numberN];
+
+        for (int rows = 0; rows < newArray.length; rows++) {
+
+            for (int col = 0; col < newArray[rows].length; col++) {
+
+                newArray[rows][col] = rows + col;
+            }
+        }
+
+            for (int[] a : newArray) {
+
+                for (int i : a) {
+
+                    System.out.print(i + "\t");
+
+                }
+
+                System.out.println("\n");
+            }
 
     }
 }
