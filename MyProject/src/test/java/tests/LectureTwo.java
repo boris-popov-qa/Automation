@@ -257,6 +257,26 @@ public class LectureTwo {
             }
         }
     }
+
+    @Test
+    public void test8() {
+
+        for (int i=66; i > 21; i=i-4){
+
+                System.out.print(i + " ");
+
+        }
+
+        System.out.println('\n');
+
+        for (int i=77; i < 99; i++){
+
+            System.out.print(i + " ");
+            i++;
+
+        }
+
+    }
 }
 
 
