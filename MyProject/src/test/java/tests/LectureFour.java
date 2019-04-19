@@ -3,7 +3,9 @@ package tests;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class LectureFour {
 
@@ -86,6 +88,19 @@ public class LectureFour {
         System.out.println("\n====================================================\n");
 
 
+
+    }
+
+    @Test
+    public void test4(){
+        String [] anotherArray ={"This", "is", "how",  "we", "roll", "arrays"};
+
+        List<String> stringList = new ArrayList<String>(Arrays.asList(anotherArray));
+
+        System.out.println(stringList);
+
+
+        System.out.println("\n====================================================\n");
 
     }
 
