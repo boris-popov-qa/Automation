@@ -34,9 +34,11 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureFour.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="682">
-              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+              <caret line="120" column="87" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2584#2592#0" expanded="true" />
+                <element signature="e#2844#2852#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureFour.test4">
+  <component name="RunManager" selected="TestNG.LectureFour.test5">
     <configuration name="LectureFour" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -174,24 +176,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LectureFour" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LectureFour.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LectureFour" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -252,13 +236,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LectureFour.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureFour" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureFour.test5" />
         <item itemvalue="TestNG.LectureFour.test4" />
         <item itemvalue="TestNG.LectureFour.test3" />
         <item itemvalue="TestNG.LectureFour" />
         <item itemvalue="TestNG.LectureFour.test2" />
-        <item itemvalue="TestNG.LectureFour.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +278,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureFour_test3 - 2019.04.19 at 14h 58m 39s.xml">
-      <configuration name="LectureFour.test3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureFour_test3 - 2019.04.19 at 15h 03m 59s.xml">
-      <configuration name="LectureFour.test3" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureFour_test3 - 2019.04.19 at 15h 05m 17s.xml">
       <configuration name="LectureFour.test3" configurationId="TestNG" />
     </history-entry>
@@ -305,6 +301,12 @@
     </history-entry>
     <history-entry file="LectureFour_test3 - 2019.04.19 at 15h 14m 54s.xml">
       <configuration name="LectureFour.test3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureFour_test4 - 2019.04.19 at 15h 22m 00s.xml">
+      <configuration name="LectureFour.test4" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureFour_test5 - 2019.04.19 at 15h 46m 24s.xml">
+      <configuration name="LectureFour.test5" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -415,9 +417,11 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureFour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
-          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+          <caret line="120" column="87" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2584#2592#0" expanded="true" />
+            <element signature="e#2844#2852#0" expanded="true" />
           </folding>
         </state>
       </provider>

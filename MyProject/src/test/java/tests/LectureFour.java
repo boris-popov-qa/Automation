@@ -104,4 +104,21 @@ public class LectureFour {
 
     }
 
+    @Test
+    public void test5(){
+        List<String> stringList = new ArrayList<String>();
+        stringList.add("This");
+        stringList.add("is");
+        stringList.add("how");
+        stringList.add("we");
+        stringList.add("roll");
+        stringList.add("arrays");
+
+        Object[] toArray = stringList.toArray();
+        System.out.println(Arrays.toString(toArray));
+
+
+        System.out.println("\n====================================================\n");
+    }
+
 }
