@@ -2,10 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class LectureFour {
 
@@ -121,4 +118,31 @@ public class LectureFour {
         System.out.println("\n====================================================\n");
     }
 
+    @Test
+    public void test6(){
+        LinkedList<String> stringLinkedList = new LinkedList<String>();
+        stringLinkedList.add("This");
+        stringLinkedList.add("is");
+        stringLinkedList.add("how");
+        stringLinkedList.add("we");
+        stringLinkedList.add("roll");
+        stringLinkedList.add("arrays");
+
+        Collections.reverse(stringLinkedList);
+
+        System.out.println("The LinkedList elements in reversed order are: ");
+
+        Iterator<String> iterator = stringLinkedList.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+
+
+    }
+
+
 }
+
+
