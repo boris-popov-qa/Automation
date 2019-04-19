@@ -160,6 +160,36 @@ public class LectureFour {
 
         System.out.println("Second map: " + secondMap);
 
+
+        System.out.println("\n====================================================\n");
+
+    }
+    @Test
+    public void test8(){
+        Map<Integer,String> newMap = new HashMap<Integer, String>();
+        newMap.put(11,"This");
+        newMap.put(12, "is");
+        newMap.put(13, "how");
+        newMap.put(14, "we");
+        newMap.put(15, "roll");
+        newMap.put(16, "arrays");
+
+        if (newMap.containsValue("This")){
+            System.out.println(newMap);
+        }
+        else
+            newMap.put(1, "This");
+        System.out.println(newMap);
+
+        if (newMap.containsValue("That")){
+            System.out.println(newMap);
+        }
+        else
+            newMap.put(2, "That");
+        System.out.println(newMap);
+
+        System.out.println("\n====================================================\n");
+
     }
 
 
