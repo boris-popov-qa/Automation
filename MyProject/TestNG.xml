@@ -4,6 +4,7 @@
     <test name="Automation QA Test" >
         <classes>
             <class name="tests.LectureOne" />
+            <class name="tests.LectureTwo" />
         </classes>
     </test>
 
