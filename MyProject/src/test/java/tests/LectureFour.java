@@ -138,7 +138,27 @@ public class LectureFour {
             System.out.println(iterator.next());
         }
 
+        System.out.println("\n====================================================\n");
 
+    }
+
+    @Test
+    public void test7(){
+        Map<Integer,String> firstMap = new HashMap<Integer, String>();
+        firstMap.put(1,"This");
+        firstMap.put(2, "is");
+        firstMap.put(3, "how");
+        firstMap.put(4, "we");
+        firstMap.put(5, "roll");
+        firstMap.put(6, "arrays");
+
+        System.out.println("First map: "+ firstMap);
+
+
+        Map<Integer,String> secondMap = new HashMap<Integer, String>();
+        secondMap.putAll(firstMap);
+
+        System.out.println("Second map: " + secondMap);
 
     }
 
