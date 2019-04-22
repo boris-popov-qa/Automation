@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f664e0-0074-44c5-8976-05f79b7eb320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LectureTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LectureTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LectureTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LectureTwo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,13 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureTwo.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -49,8 +48,9 @@
         <option value="$PROJECT_DIR$/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" />
-        <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LectureTwo.java" />
+        <option value="$PROJECT_DIR$/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" />
       </list>
     </option>
   </component>
@@ -91,8 +91,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,8 +153,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureTwo.test8">
-    <configuration name="LectureTwo.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LectureThree.Test1">
+    <configuration name="LectureThree.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LectureTwo" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureThree" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -246,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureThree.Test1" />
         <item itemvalue="TestNG.LectureTwo.test8" />
         <item itemvalue="TestNG.LectureTwo.test7" />
         <item itemvalue="TestNG.LectureTwo.test6" />
         <item itemvalue="TestNG.LectureTwo.test5" />
-        <item itemvalue="TestNG.LectureTwo.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -268,27 +268,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 24m 05s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 24m 58s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 25m 14s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 26m 22s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 26m 55s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 27m 40s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 28m 04s.xml">
-      <configuration name="LectureTwo.test8" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 28m 27s.xml">
       <configuration name="LectureTwo.test8" configurationId="TestNG" />
     </history-entry>
@@ -298,12 +277,33 @@
     <history-entry file="LectureTwo_test8 - 2019.04.18 at 12h 29m 35s.xml">
       <configuration name="LectureTwo.test8" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 35m 33s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 36m 46s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 38m 36s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 39m 35s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 41m 41s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 44m 16s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_Test1 - 2019.04.22 at 12h 44m 45s.xml">
+      <configuration name="LectureThree.Test1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +312,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,20 +355,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="264" column="47" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
+        <state relative-caret-position="291">
+          <caret line="255" column="42" selection-start-line="255" selection-start-column="42" selection-end-line="255" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
         </state>
       </provider>
     </entry>
