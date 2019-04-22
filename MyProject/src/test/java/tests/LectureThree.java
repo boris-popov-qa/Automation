@@ -3,6 +3,8 @@ package tests;
 import org.testng.annotations.Test;
 
 public class LectureThree {
+
+
     @Test
     public void Test1(){
         String myWord = "civic";
@@ -40,8 +42,28 @@ public class LectureThree {
             System.out.println("The word is NOT a Palindrome.");
 
 
+    }
 
+    @Test
+    public void Test2(){
+        String newString = "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque tellus sapien tincidunt porta orci ut";
 
+        System.out.println(count(newString) + " words.");
 
     }
+
+    int count(String newString) {
+        int count =0;
+
+        char ch[]= new char[newString.length()];
+        for(int i=0;i<newString.length();i++)
+        {
+            ch[i]= newString.charAt(i);
+            if( ((i>0)&&(ch[i]!=' ')&&(ch[i-1]==' ')) || ((ch[0]!=' ')&&(i==0)) )
+                count++;
+        }
+        return count;
+    }
+
+
 }
