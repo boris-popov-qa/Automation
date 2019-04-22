@@ -64,10 +64,10 @@ public class LectureThree {
 
     }
 
-    int count(String newString) {
+    private int count(String newString) {
         int count =0;
 
-        char ch[]= new char[newString.length()];
+        char[] ch = new char[newString.length()];
         for(int i=0;i<newString.length();i++)
         {
             ch[i]= newString.charAt(i);
@@ -88,10 +88,10 @@ public class LectureThree {
         System.out.println("\n=====================================\n");
 
     }
-    int countA(String testThreeString) {
+    private int countA(String testThreeString) {
         int countA =0;
 
-        char ch[]= new char[testThreeString.length()];
+        char[] ch = new char[testThreeString.length()];
         for(int i=0;i<testThreeString.length();i++)
         {
             ch[i]= testThreeString.charAt(i);
@@ -100,10 +100,10 @@ public class LectureThree {
         }
         return countA;
     }
-    int countS(String testThreeString) {
+    private int countS(String testThreeString) {
         int countS =0;
 
-        char ch[]= new char[testThreeString.length()];
+        char[] ch = new char[testThreeString.length()];
         for(int i=0;i<testThreeString.length();i++)
         {
             ch[i]= testThreeString.charAt(i);
@@ -112,10 +112,10 @@ public class LectureThree {
         }
         return countS;
     }
-    int countE(String testThreeString) {
+    private int countE(String testThreeString) {
         int countE =0;
 
-        char ch[]= new char[testThreeString.length()];
+        char[] ch = new char[testThreeString.length()];
         for(int i=0;i<testThreeString.length();i++)
         {
             ch[i]= testThreeString.charAt(i);
@@ -191,6 +191,28 @@ public class LectureThree {
 
         System.out.println("\n=====================================\n");
     }
+
+    @Test
+    public void test8(){
+        String testEightString = "Lorem ipsum dolor sit";
+
+        int cnt = 0;
+        char[] inp = testEightString.toCharArray();
+        System.out.println("Duplicate Characters are: ");
+        for (int i = 0; i < testEightString.length(); i++) {
+            for (int j = i + 1; j < testEightString.length(); j++) {
+                if (inp[i] == inp[j]) {
+                    System.out.print(inp[j] + " ");
+                    cnt++;
+                    break;
+                }
+            }
+        }
+
+        System.out.println("\n=====================================\n");
+
+    }
+
     @Test
     public void test9(){
         String testNineString = "<b>“our string %Welcome to mentorm@te1.com”</b>";
