@@ -2,6 +2,10 @@ package tests;
 
 import org.testng.annotations.Test;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class LectureThree {
 
 
@@ -175,6 +179,15 @@ public class LectureThree {
 
         System.out.println("\n=====================================\n");
 
+    }
+
+    @Test
+    public void test7(){
+        DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmm");
+        Date date = new Date();
+        String currentDate = dateFormat.format(date);
+
+        System.out.println("your.name+" + currentDate + "@mentormate.com");
     }
 
 
