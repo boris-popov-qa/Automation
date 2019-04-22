@@ -158,6 +158,25 @@ public class LectureThree {
 
     }
 
+    @Test
+    public void test6(){
+
+        for (int i=1; i<=100; i++){
+            if (i<10){
+                System.out.println("your.name+00" + i + "@mentormate.com");
+            }
+            if (i>=10 && i<100){
+                System.out.println("your.name+0" + i + "@mentormate.com");
+            }
+            if (i==100){
+                System.out.println("your.name+" + i + "@mentormate.com");
+            }
+        }
+
+        System.out.println("\n=====================================\n");
+
+    }
+
 
 
 }
