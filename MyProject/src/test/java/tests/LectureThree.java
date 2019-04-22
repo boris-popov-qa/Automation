@@ -188,8 +188,14 @@ public class LectureThree {
         String currentDate = dateFormat.format(date);
 
         System.out.println("your.name+" + currentDate + "@mentormate.com");
-    }
 
+        System.out.println("\n=====================================\n");
+    }
+    @Test
+    public void test9(){
+        String testNineString = "<b>“our string %Welcome to mentorm@te1.com”</b>";
+        System.out.println("The number of symbols in the string is: " + testNineString.length());
+    }
 
 
 }
