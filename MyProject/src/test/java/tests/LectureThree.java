@@ -136,7 +136,28 @@ public class LectureThree {
 
         System.out.println("\n=====================================\n");
     }
-    
+
+    @Test
+    public void test5(){
+        String testFiveString = "Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit Quisque Tellus Sapien Tincidunt Porta Orci Ut";
+
+        testFiveString = testFiveString.toUpperCase();
+
+        char[] ch = new char[testFiveString.length()];
+        for(int i=0;i<testFiveString.length();i++)
+        {
+            ch[i]= testFiveString.charAt(i);
+            if( ((i>0)&&(ch[i]!=' ')&&(ch[i-1]==' ')) || ((ch[0]!=' ')&&(i==0)) )
+                ch[i] = Character.toLowerCase(ch[i]);
+            System.out.print(ch[i]);
+        }
+
+
+        System.out.println("\n=====================================\n");
+
+
+    }
+
 
 
 }
