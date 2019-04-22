@@ -121,5 +121,22 @@ public class LectureThree {
         return countE;
     }
 
+    @Test
+    public void test4(){
+        String testFourString = "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque tellus sapien tincidunt porta orci ut";
+        String reverse ="";
+
+        for(int i = testFourString.length() - 1; i >= 0; i--)
+        {
+            reverse = reverse + testFourString.charAt(i);
+        }
+
+        System.out.println(reverse);
+
+
+        System.out.println("\n=====================================\n");
+    }
+    
+
 
 }
