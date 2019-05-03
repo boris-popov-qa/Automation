@@ -1,5 +1,6 @@
 package tests;
 
+import homework.PasswordValidation;
 import homework.TestMethods;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,13 @@ public class HomeworkFive {
     @Test
     public void test5(){
         TestMethods.leapYear(2020);
+
+        System.out.println("\n=====================================\n");
+    }
+
+    @Test
+    public void test6(){
+        PasswordValidation.validPassword("asSS21ggGG");
 
         System.out.println("\n=====================================\n");
     }
