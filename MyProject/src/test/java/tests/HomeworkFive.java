@@ -25,6 +25,11 @@ public class HomeworkFive {
         System.out.println(TestMethods.testThreeMethodTwo(listSize));
 
     }
+    @Test
+    public void testFour(){
+        TestMethods.interestCalc(10000,5,10);
+
+    }
 
 
 

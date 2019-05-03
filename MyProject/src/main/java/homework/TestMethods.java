@@ -1,6 +1,5 @@
 package homework;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -43,6 +42,22 @@ public class TestMethods {
     //Method2 for Test3
     public static int testThreeMethodTwo(List<String> listOfStrings){
         return listOfStrings.size();
+
+    }
+
+    //Method for Test4
+
+    public static void interestCalc(int inv, double rate, int years){
+
+        double finalInterest = inv + (inv * (rate / 100));
+        int i = 1;
+        do {
+            System.out.println(finalInterest);
+            finalInterest = finalInterest + (inv * (rate / 100));
+            i++;
+        } while (i < years);
+
+        System.out.println("The total interest for 10 years is: " + finalInterest);
 
     }
 
