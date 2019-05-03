@@ -1,24 +1,31 @@
 package tests;
 
+import homework.TestMethods;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
+
 public class HomeworkFive {
-    //Method for Test1
-    public void smallestNumber(int a, int b, int c){
 
-        if(a<b && a<c){
-            System.out.println("The smallest number is a: " + a);
-        }
-        else if(b<c){
-            System.out.println("The smallest number is b: " + b);
-        }
-        else{
-            System.out.println("The smallest number is c: " + c);
-        }
-
-    }
     @Test
     public void test1(){
-        smallestNumber(37, 25,19);
+        TestMethods.smallestNumber(37, 25,19);
     }
+
+
+    @Test
+    public void testTwo(){
+        TestMethods.testTwoMethod("I love writing methods so much.");
+    }
+
+    @Test
+    public void testThree(){
+        List listSize = TestMethods.testThreeMethodOne("Did I tell you how much I love writing methods.");
+        System.out.println(TestMethods.testThreeMethodTwo(listSize));
+
+    }
+
+
+
 }
