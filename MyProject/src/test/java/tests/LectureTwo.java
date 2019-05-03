@@ -10,6 +10,7 @@ public class LectureTwo {
 
     @Test
     public void test1() {
+        System.out.println("\n====================================================\n");
 
         Random rn = new Random();
 
@@ -46,6 +47,9 @@ public class LectureTwo {
             System.out.println("Both numbers are Odd numbers.");
         } else
             System.out.println("The two numbers are NOT both odd.");
+
+
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -109,6 +113,8 @@ public class LectureTwo {
             System.out.println(b + " is a Prime number.");
         else
             System.out.println(b + " is not a Prime number.");
+
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -161,7 +167,7 @@ public class LectureTwo {
         System.out.println(newNumber + " : " + numberName);
 
 
-    }
+        System.out.println("\n====================================================\n");    }
 
     @Test
     public void test4() {
@@ -200,6 +206,7 @@ public class LectureTwo {
 
         }
 
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -230,6 +237,7 @@ public class LectureTwo {
                 System.out.println("\n");
             }
 
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -247,6 +255,7 @@ public class LectureTwo {
 
         }
 
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -256,6 +265,8 @@ public class LectureTwo {
                 System.out.print(i + " ");
             }
         }
+
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -275,6 +286,8 @@ public class LectureTwo {
             i++;
 
         }
+
+        System.out.println("\n====================================================\n");
 
     }
 }

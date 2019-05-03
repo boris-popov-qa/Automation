@@ -7,6 +7,7 @@ public class LectureOne {
 
     @Test
     public void test1() {
+        System.out.println("\n====================================================\n");
 
         char firstLetter = 0x0042;
         char secondLetter = 0x006f;
@@ -16,6 +17,8 @@ public class LectureOne {
 
         System.out.println("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
 
+
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -29,6 +32,8 @@ public class LectureOne {
 
         System.out.println("Name: " + firstLetter + secondLetter + thirdLetter + fourthLetter + fifthLetter);
 
+        System.out.println("\n====================================================\n");
+
     }
 
     @Test
@@ -40,6 +45,8 @@ public class LectureOne {
 
         System.out.println ("" + backlash + singleQuote + "Hello" + singleQuote + backlash + "to" + backlash + backlash + backlash + doubleQuotes + "World" + doubleQuotes + backlash + singleQuote);
 
+        System.out.println("\n====================================================\n");
+
     }
 
     @Test
@@ -49,6 +56,8 @@ public class LectureOne {
         short maxValue = 32767;
 
         System.out.println("Min value: " + minValue + '\n' + "Max value: " + maxValue);
+
+        System.out.println("\n====================================================\n");
 
     }
 
@@ -73,6 +82,8 @@ public class LectureOne {
 
         //Remainder - the result of c % b should be 1;
         System.out.println("Remainder: " + (c % b));
+
+        System.out.println("\n====================================================\n");
     }
 
     @Test
@@ -86,6 +97,9 @@ public class LectureOne {
         long employeeNumber = 27560000;
 
         System.out.println("First name: " + firstName + '\n' + "Last name: " + lastName + '\n' + "Age: " + age + '\n' + "Gender: " + gender + '\n' + "Personal number: " + personalNumber + '\n' + "Employee number: " + employeeNumber);
+
+        System.out.println("\n====================================================\n");
+
     }
 
 
