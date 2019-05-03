@@ -21,14 +21,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomeworkFive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="765">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/TestMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+            <state relative-caret-position="682">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +63,8 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/LectureOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/LectureTwo.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/HomeworkFive.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/TestMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/HomeworkFive.java" />
       </list>
     </option>
   </component>
@@ -192,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomeworkFive.testFour">
+  <component name="RunManager" selected="TestNG.HomeworkFive">
     <configuration name="HomeworkFive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -204,6 +200,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.HomeworkFive" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworkFive.testFive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeworkFive" />
+      <option name="METHOD_NAME" value="testFive" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -264,31 +278,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkFive.testTwoMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HomeworkFive" />
-      <option name="METHOD_NAME" value="testTwoMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeworkFive" />
+        <item itemvalue="TestNG.HomeworkFive.testFive" />
         <item itemvalue="TestNG.HomeworkFive.testFour" />
         <item itemvalue="TestNG.HomeworkFive.testThree" />
-        <item itemvalue="TestNG.HomeworkFive" />
         <item itemvalue="TestNG.HomeworkFive.testTwo" />
-        <item itemvalue="TestNG.HomeworkFive.testTwoMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -306,21 +302,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeworkFive_testThree - 2019.05.03 at 15h 52m 36s.xml">
-      <configuration name="HomeworkFive.testThree" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeworkFive_testThree - 2019.05.03 at 16h 31m 37s.xml">
-      <configuration name="HomeworkFive.testThree" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 23m 26s.xml">
-      <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 24m 26s.xml">
-      <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 25m 41s.xml">
-      <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 28m 43s.xml">
       <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
     </history-entry>
@@ -336,6 +317,21 @@
     <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 35m 51s.xml">
       <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 36m 38s.xml">
+      <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeworkFive_testFour - 2019.05.03 at 17h 37m 42s.xml">
+      <configuration name="HomeworkFive.testFour" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeworkFive_testFive - 2019.05.03 at 17h 54m 05s.xml">
+      <configuration name="HomeworkFive.testFive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeworkFive_testFive - 2019.05.03 at 17h 54m 44s.xml">
+      <configuration name="HomeworkFive.testFive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeworkFive - 2019.05.03 at 17h 57m 51s.xml">
+      <configuration name="HomeworkFive" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -350,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/TestMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
+        <state relative-caret-position="682">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -422,14 +418,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/HomeworkFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="765">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
           </folding>
         </state>
       </provider>

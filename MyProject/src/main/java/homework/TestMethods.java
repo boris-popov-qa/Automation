@@ -8,9 +8,7 @@ import static java.util.Arrays.asList;
 public class TestMethods {
 
 
-    private static List<String> listToPrint2;
-
-    //Method for Test1
+    //Method for HomeworkFive - Test1
     public static void smallestNumber(int a, int b, int c){
 
         if(a<b && a<c){
@@ -25,7 +23,7 @@ public class TestMethods {
 
     }
 
-    //Method for Test2
+    //Method for HomeworkFive - Test2
     public static void testTwoMethod(String newString){
 
         List<String> listToPrint = asList(newString.split(" "));
@@ -34,18 +32,18 @@ public class TestMethods {
 
     }
 
-    //Method1 for Test3
+    //Method1 for HomeworkFive - Test3
         public static List<String> testThreeMethodOne(String newString){
             return Arrays.asList(newString.split(" "));
 
     }
-    //Method2 for Test3
+    //Method2 for HomeworkFive - Test3
     public static int testThreeMethodTwo(List<String> listOfStrings){
         return listOfStrings.size();
 
     }
 
-    //Method for Test4
+    //Method for HomeworkFive - Test4
 
     public static void interestCalc(int inv, double rate, int years){
 
@@ -59,6 +57,17 @@ public class TestMethods {
 
         System.out.println("The total interest for 10 years is: " + finalInterest);
 
+    }
+
+    //Method for HomeworkFive - Test5
+    public static void leapYear(int year){
+
+        if (((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0)) {
+            System.out.println("The year " + year + " is a leap year");
+        }
+        else {
+            System.out.println("The year " + year + " is NOT a leap year");
+        }
     }
 
 
