@@ -70,5 +70,50 @@ public class TestMethods {
         }
     }
 
+    //Method for HomeworkFive - Test7
+    public static void monthMethod(int month){
+        switch (month) {
+            case 1:
+                System.out.println("The month you entered is January.");
+                break;
+            case 2:
+                System.out.println("The month you entered is February.");
+                break;
+            case 3:
+                System.out.println("The month you entered is March.");
+                break;
+            case 4:
+                System.out.println("The month you entered is April.");
+                break;
+            case 5:
+                System.out.println("The month you entered is May.");
+                break;
+            case 6:
+                System.out.println("The month you entered is June.");
+                break;
+            case 7:
+                System.out.println("The month you entered is July.");
+                break;
+            case 8:
+                System.out.println("The month you entered is August.");
+                break;
+            case 9:
+                System.out.println("The month you entered is September.");
+                break;
+            case 10:
+                System.out.println("The month you entered is October.");
+                break;
+            case 11:
+                System.out.println("The month you entered is November.");
+                break;
+            case 12:
+                System.out.println("The month you entered is December.");
+                break;
+            default:
+                System.out.println("Please enter a valid month!");
+                break;
+        }
+    }
+
 
 }

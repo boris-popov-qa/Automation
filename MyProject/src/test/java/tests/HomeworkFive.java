@@ -52,6 +52,11 @@ public class HomeworkFive {
         System.out.println("\n=====================================\n");
     }
 
+    @Test
+    public void test7(){
+        TestMethods.monthMethod(12);
+    }
+
 
 
 }
