@@ -5,6 +5,7 @@
         <classes>
             <class name="tests.LectureOne" />
             <class name="tests.LectureTwo" />
+            <class name="tests.HomeworkFive" />
         </classes>
     </test>
 
