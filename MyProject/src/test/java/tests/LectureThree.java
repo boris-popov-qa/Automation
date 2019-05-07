@@ -4,7 +4,9 @@ import org.testng.annotations.Test;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.Set;
 
 public class LectureThree {
 
@@ -222,6 +224,7 @@ public class LectureThree {
         int cnt = 0;
         char[] inp = testEightString.toCharArray();
         System.out.println("Duplicate Characters are: ");
+
         for (int i = 0; i < testEightString.length(); i++) {
             for (int j = i + 1; j < testEightString.length(); j++) {
                 if (inp[i] == inp[j]) {
