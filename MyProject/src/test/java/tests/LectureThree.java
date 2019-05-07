@@ -8,23 +8,39 @@ import java.util.Date;
 
 public class LectureThree {
 
-
     @Test
     public void test1(){
         System.out.println("\n=====================================\n");
 
-
+//        boolean isPalindrome = false;
+//
+//        for (int i=0 , j=myWord.length()-1 ; i<j ; i++ , j-- ) {
+//
+//            if ( myWord.charAt(i) != myWord.charAt(j) )
+//            {
+//                isPalindrome = false;
+//            }
+//            else
+//                isPalindrome = true;
+//        }
+//        for (int i=0 , j=myWord2.length()-1 ; i<j ; i++ , j-- ) {
+//
+//            if ( myWord2.charAt(i) != myWord2.charAt(j) ) {
+//                isPalindrome = false;
+//            }
+//            else
+//                isPalindrome = true;
+//        }
         String myWord = "civic";
         String myWord2 = "random";
-        boolean isPalindrome = false;
+        boolean isPalindrome = true;
 
         for (int i=0 , j=myWord.length()-1 ; i<j ; i++ , j-- ) {
 
             if ( myWord.charAt(i) != myWord.charAt(j) ) {
                 isPalindrome = false;
+                break;
             }
-            else
-                isPalindrome = true;
         }
         if (isPalindrome){
             System.out.println("The word is a Palindrome.");
@@ -33,16 +49,17 @@ public class LectureThree {
             System.out.println("The word is NOT a Palindrome.");
 
 
+        boolean isPalindrome2 = true;
 
         for (int i=0 , j=myWord2.length()-1 ; i<j ; i++ , j-- ) {
 
             if ( myWord2.charAt(i) != myWord2.charAt(j) ) {
-                isPalindrome = false;
+                isPalindrome2 = false;
+                break;
             }
-            else
-                isPalindrome = true;
         }
-        if (isPalindrome){
+
+        if (isPalindrome2){
             System.out.println("The word is a Palindrome.");
         }
         else
