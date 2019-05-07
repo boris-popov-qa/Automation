@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f664e0-0074-44c5-8976-05f79b7eb320" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LectureThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LectureThree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="125" column="7" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="125" selection-end-column="7" />
+            <state relative-caret-position="493">
+              <caret line="159" column="36" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -152,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureThree.test3">
+  <component name="RunManager" selected="TestNG.LectureThree.test5">
     <configuration name="LectureThree" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -206,6 +204,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LectureThree.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LectureThree" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LectureThree.test8" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -224,31 +240,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureThree.test9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LectureThree" />
-      <option name="METHOD_NAME" value="test9" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureThree.test5" />
         <item itemvalue="TestNG.LectureThree.test3" />
         <item itemvalue="TestNG.LectureThree.test1" />
         <item itemvalue="TestNG.LectureThree" />
         <item itemvalue="TestNG.LectureThree.test8" />
-        <item itemvalue="TestNG.LectureThree.test9" />
       </list>
     </recent_temporary>
   </component>
@@ -266,9 +264,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 44m 13s.xml">
-      <configuration name="LectureThree.test7" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureThree_test9 - 2019.04.22 at 16h 51m 16s.xml">
       <configuration name="LectureThree.test9" configurationId="TestNG" />
     </history-entry>
@@ -296,12 +291,15 @@
     <history-entry file="LectureThree_test3 - 2019.05.07 at 12h 11m 06s.xml">
       <configuration name="LectureThree.test3" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LectureThree_test3 - 2019.05.07 at 12h 23m 02s.xml">
+      <configuration name="LectureThree.test3" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="125" column="7" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="125" selection-end-column="7" />
+        <state relative-caret-position="493">
+          <caret line="159" column="36" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
         </state>
       </provider>
     </entry>
