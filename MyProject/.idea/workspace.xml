@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f664e0-0074-44c5-8976-05f79b7eb320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LectureThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LectureThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LectureThree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="935">
+              <caret line="125" column="7" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="125" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -91,8 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,12 +101,6 @@
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -140,6 +131,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LectureThree">
+  <component name="RunManager" selected="TestNG.LectureThree.test3">
     <configuration name="LectureThree" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
@@ -177,7 +170,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureThree.test6" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LectureThree.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
@@ -187,7 +180,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LectureThree" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -195,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LectureThree.test7" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LectureThree.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <extension name="coverage">
         <pattern>
@@ -205,7 +198,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LectureThree" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -251,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LectureThree.test3" />
+        <item itemvalue="TestNG.LectureThree.test1" />
         <item itemvalue="TestNG.LectureThree" />
         <item itemvalue="TestNG.LectureThree.test8" />
         <item itemvalue="TestNG.LectureThree.test9" />
-        <item itemvalue="TestNG.LectureThree.test7" />
-        <item itemvalue="TestNG.LectureThree.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -273,18 +266,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 41m 07s.xml">
-      <configuration name="LectureThree.test7" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 41m 58s.xml">
-      <configuration name="LectureThree.test7" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 42m 46s.xml">
-      <configuration name="LectureThree.test7" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 43m 27s.xml">
-      <configuration name="LectureThree.test7" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LectureThree_test7 - 2019.04.22 at 16h 44m 13s.xml">
       <configuration name="LectureThree.test7" configurationId="TestNG" />
     </history-entry>
@@ -303,12 +284,24 @@
     <history-entry file="LectureThree_test8 - 2019.04.22 at 17h 11m 24s.xml">
       <configuration name="LectureThree.test8" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LectureThree_test1 - 2019.05.07 at 11h 58m 35s.xml">
+      <configuration name="LectureThree.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_test1 - 2019.05.07 at 12h 00m 55s.xml">
+      <configuration name="LectureThree.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_test1 - 2019.05.07 at 12h 01m 08s.xml">
+      <configuration name="LectureThree.test1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LectureThree_test3 - 2019.05.07 at 12h 11m 06s.xml">
+      <configuration name="LectureThree.test3" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20842217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,11 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LectureThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="198" column="14" selection-start-line="198" selection-start-column="14" selection-end-line="198" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="935">
+          <caret line="125" column="7" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="125" selection-end-column="7" />
         </state>
       </provider>
     </entry>
